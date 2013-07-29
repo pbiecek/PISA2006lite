@@ -7,7 +7,7 @@
 \description{
   The english version of school questionnaire PISA 2006 is avaliable here \code{http://pisa2006.acer.edu.au/downloads/ScQ_Questionnaire2006.pdf}.
 
-  There is 10274 rows/schools and 192 columns/variables.
+  There is 14365 rows/schools and 187 columns/variables.
 
   The \code{school2006} dataset is imported from this file \code{http://pisa2006.acer.edu.au/downloads/INT_schi_2006.zip}.
 

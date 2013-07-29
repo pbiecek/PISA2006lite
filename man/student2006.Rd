@@ -6,7 +6,7 @@
 \description{
   The english version of student questionnaire PISA 2006 is avaliable here \code{http://pisa2006.acer.edu.au/downloads/StQ_Questionnaire2006.pdf}.
 
-  There is 276165 rows/pupils and 407 columns/variables.
+  There is 398750 rows/pupils and 490 columns/variables.
 
   The \code{student2006} dataset is imported from this file \code{http://pisa2006.acer.edu.au/downloads/INT_stui_2006_v2.zip}.
 
