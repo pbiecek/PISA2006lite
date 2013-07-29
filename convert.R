@@ -58,7 +58,7 @@ for (i in 1:ncol(school2006)) {
   if (sum(is.na(as.numeric(levels(school2006[,i])))) == 0)
     school2006[,i] <- as.numeric(as.character(school2006[,i]))
 }
-save(school2006, file="school2006.rda")  
+save(school2006, file="school2006.rda", compression_level=9, compress="bzip2")  
 
 
 
