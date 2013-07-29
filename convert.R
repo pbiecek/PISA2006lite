@@ -71,5 +71,5 @@ for (i in 1:ncol(student2006)) {
   if (sum(is.na(as.numeric(levels(student2006[,i])))) == 0)
     student2006[,i] <- as.numeric(as.character(student2006[,i]))
 }
-save(student2006, file="student2006.rda")  
+save(student2006, file="student2006.rda", compression_level=9, compress="bzip2")  
 
